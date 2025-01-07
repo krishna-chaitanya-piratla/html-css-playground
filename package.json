@@ -10,9 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@codemirror/basic-setup": "^0.19.3",
+    "@codemirror/lang-css": "^0.19.3",
+    "@codemirror/lang-html": "^0.19.3",
+    "@codemirror/language": "^0.19.10",
+    "@codemirror/state": "^0.19.9",
+    "@codemirror/view": "^0.19.48",
+    "@lezer/highlight": "^1.2.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "styled-components": "^6.1.14"
+    "styled-components": "^6.1.13"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
