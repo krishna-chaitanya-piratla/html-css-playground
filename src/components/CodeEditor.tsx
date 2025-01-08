@@ -4,6 +4,7 @@ import { html } from "@codemirror/lang-html";
 import { EditorView, ViewUpdate } from "@codemirror/view";
 import { useEffect, useRef } from "react";
 import { Editor } from "../styles/CodeEditorStyles";
+import { gruvboxDark } from "../styles/codemirror_themes/MaterialDark";
 
 
 interface CodeEditorProps {
@@ -34,6 +35,7 @@ const CodeEditor: React.FC<CodeEditorProps> = ({initialCode = "", language, onCh
 
         const extensions = [
             basicSetup,
+            gruvboxDark,
             EditorView.updateListener.of(handleUpdate),
             language === "html" ? html() : css() 
         ];

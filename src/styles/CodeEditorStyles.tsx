@@ -9,6 +9,7 @@ export const Editor = styled.div`
   height: 100%;
   margin: 1.25rem auto;
   margin-top: 0;
+  margin-left: 1.25rem;
 
   .cm-editor {
     font-family: "Fira Code", monospace;
